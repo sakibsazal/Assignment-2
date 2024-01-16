@@ -145,3 +145,38 @@ background: rgba(255, 255, 255, 0.30);
 
 margin: 48px 185px 106px 185px;
 }
+#manu{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+color: rgba(19, 19, 24, 0.50);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.button{
+    width: 174px;
+height: 52px;
+flex-shrink: 0;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+background-image: url(/Images/Frame.png);
+background-repeat: no-repeat;
+background-position: 14px 14px ;
+}
+
+
+
+
