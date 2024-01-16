@@ -1,72 +1,147 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
-*{
+
+.landing-page {
+    width: 1440px;
+    height: 6940px;
+    background: #FFF;
+}
+
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-body{
+
+body {
     font-family: "Work Sans", sans-serif;
 }
+
 /*navbar style*/
-.top-header{
-    max-width: 1078px;
+.top-header {
+    max-width: 1178px;
     background-color: #FFF;
     margin: 0px auto;
     display: flex;
     align-items: center;
-    
-}
-.top-container{
-    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
    
-   align-items: center;
-   border: 2px solid chartreuse;
- 
-  
-   width: 50%;
 
 }
-.top-container img{
+
+.top-container {
+    display: flex;
+
+    align-items: center;
+    /*border: 2px solid chartreuse;*/
+
+    gap: 16px;
+    width: 50%;
+
+}
+
+.top-container img {
     width: 48px;
-    
+
     flex-shrink: 0;
 
 }
-.top-container p{
+
+.top-container p {
     color: #131318;
-font-family: Mulish;
-font-size: 36px;
-font-style: normal;
-font-weight: 800;
-line-height: normal;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
 
 
 }
-.travel{
-    color: #FF5400; 
+
+.travel {
+    color: #FF5400;
 }
-.items-container{
-  
+
+.items-container {
+
     width: 50%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 2px solid seagreen;
+    /*border: 2px solid seagreen;*/
+
 }
-.items-container a{
+
+.items-container a {
     text-decoration: none;
     color: var(--Dark-02, #424247);
-text-align: center;
-font-family: Mulish;
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     display: inline-flex;
     padding: 10px 0px;
     justify-content: center;
     align-items: center;
     gap: 44px;
+
+}
+
+/*banner section styles*/
+.banner-section {
+    width: 81.25%;
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0px auto;
+    border-radius: 16px;
+}
+
+.banner-section{
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0; 
+   /* border: 2px solid rgb(184, 170, 21);*/
+    background-image:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png); 
+    border-radius: 16px;
+    margin: 50px auto;}
+ 
+.banner-heading{
+    color: #FFF;
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding-top: 106px;
+padding-left:287px ;
+padding-right: 287px;
+padding-bottom: 24px;
+}
+.banner-para{
+    width: 676px;
     
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+margin-left: 247px;
+}
+.frame1{
+    width: 800px;
+    height: 84px;
+    display: inline-flex;
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+
+margin: 48px 185px 106px 185px;
 }

@@ -1,0 +1,8 @@
+@media screen and (max-width: 600px) {
+ .top-header{
+    flex-direction: row ;}
+    .items-container{
+        flex-direction:row;
+    }
+    
+}
