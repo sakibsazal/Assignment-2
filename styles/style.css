@@ -180,6 +180,7 @@ body {
     background-image: url(/Images/Frame.png);
     background-repeat: no-repeat;
     background-position: 14px 14px;
+    border: none;
 }
 
 
@@ -272,4 +273,79 @@ border: none;
         flex-shrink: 0;
         border-radius: 16px;
        
+    }
+   /*section 3 style */
+    .div h2{
+        width: 478px;
+        height: 50px;
+        color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin: 0px 480px;
+
+    }
+    .div p{
+        width: 643px;
+        height: 52px;
+        color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+margin: 0px 398px;
+padding: 24px 0px 48px 0px;
+    }
+    .section3{
+        margin: 48px 135px;
+        border-radius: 16px;
+
+
+       
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), lightgray 50% / cover no-repeat;
+    }
+    .row{
+        width: 573px;
+height: 300px;
+flex-shrink: 0;
+display: flex;
+gap: 24px;
+    }
+    .row2{
+        display: flex;
+        height: 286px;
+        gap: 24px;
+        padding-top: 24px;
+    }
+    .rec6{
+        width: 374px;
+
+    }
+    .rec7{
+        width: 474px;
+    }
+    rec9{
+        width: 274px;
+    }
+    .row3{
+        display: flex;
+        height: 300px;
+        gap: 24px;
+        padding-top: 24px;
+    }
+    .rec11{
+        width: 473px;
+    }
+    .rec10{
+        width: 673px;
     }
