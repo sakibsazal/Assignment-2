@@ -97,7 +97,7 @@ body {
 }
 
 .cover {
-    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(/Images/Group\ 40.png);
     border-radius: 16px;
 }
 
@@ -278,7 +278,7 @@ body {
     font-style: normal;
     font-weight: 800;
     line-height: normal;
-    margin: 0px 480px;
+    margin: 0px 350px;
 }
 
 .div p {
@@ -291,11 +291,14 @@ body {
     font-style: normal;
     font-weight: 400;
     line-height: 26px;
-    margin: 0px 398px;
+    margin: 0px 260px;
     padding: 24px 0px 48px 0px;
 }
-
-.section3 {
+.div{
+    padding-bottom: 48px;
+  
+}
+.section3 {width: 100%;
     width: 1170px;
     margin: 48px 135px;
     border-radius: 16px;
@@ -308,7 +311,7 @@ img {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), lightgray 50% / cover no-repeat;
 }
 
-.row {
+.row {width: 100%;
     width: 573px;
     height: 300px;
     flex-shrink: 0;
@@ -316,47 +319,47 @@ img {
     gap: 24px;
 }
 
-.row2 {
+.row2 {width: 100%;
     display: flex;
     height: 286px;
     gap: 24px;
     padding-top: 24px;
 }
 
-.rec6 {
+.rec6 {width: 100%;
     width: 374px;
 }
 
-.rec7 {
+.rec7 {width: 100%;
     width: 474px;
 }
 
-rec9 {
+rec9 {width: 100%;
     width: 274px;
 }
 
-.row3 {
+.row3 {width: 100%;
     display: flex;
     height: 300px;
     gap: 24px;
     padding-top: 24px;
 }
 
-.rec11 {
+.rec11 {width: 100%;
     width: 473px;
 }
 
-.rec10 {
+.rec10 {width: 100%;
     width: 673px;
 }
 
 /*section 4 */
-.section4 {
+.section4 {width: 100%;
     width: 1170px;
     margin: 52px 135px;
 }
 
-.section4 h2 {
+.section4 h2 {width: 100%;
     width: 307px;
     height: 50px;
     color: #131318;
@@ -369,7 +372,7 @@ rec9 {
     margin: 0px 440px;
 }
 
-.section4 p {
+.section4 p {width: 100%;
     width: 643px;
     height: 52px;
     color: rgba(19, 19, 24, 0.70);
@@ -382,12 +385,12 @@ rec9 {
     text-align: center;
 }
 
-.row4 {
+.row4 {width: 100%;
     display: flex;
     gap: 24px;
 }
 
-.logo-img {
+.logo-img {width: 100%;
     width: 64px;
     height: 64px;
     flex-shrink: 0;
@@ -595,7 +598,7 @@ rec9 {
  
 }
 .footer-logo{
-    display: flex;
+    display:inline-flex;
 }
 .footer-logo img{
     width: 40px;
